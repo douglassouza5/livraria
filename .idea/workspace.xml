@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c4004c8-ef4a-4d51-8f03-6af4fd6cd71b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminListBooksBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/produtos/lista.xhtml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/livraria/managedbeans/AdminBooksBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/livraria/WEB-INF/classes/br/com/livraria/managedbeans/AdminBooksBean.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/AdminBooksBean.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminBooksBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/produtos/form.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/livros/form.xhtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/produtos/lista.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/livros/lista.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/livraria/managedbeans/admin/AdminBooksBean.class" afterPath="$PROJECT_DIR$/target/classes/br/com/livraria/managedbeans/admin/AdminBooksBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/livraria.war" afterPath="$PROJECT_DIR$/target/livraria.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/livraria/WEB-INF/classes/br/com/livraria/managedbeans/admin/AdminBooksBean.class" afterPath="$PROJECT_DIR$/target/livraria/WEB-INF/classes/br/com/livraria/managedbeans/admin/AdminBooksBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/livraria/daos/BookDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/livraria/daos/BookDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/livraria/models/Book.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/livraria/models/Book.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/livraria/produtos/lista.xhtml" afterPath="$PROJECT_DIR$/target/livraria/produtos/lista.xhtml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +22,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="form.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/produtos/form.xhtml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/livros/form.xhtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="314">
               <caret line="46" column="47" lean-forward="false" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
@@ -75,8 +73,8 @@
       <file leaf-file-name="AdminBooksBean.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminBooksBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="52" column="75" lean-forward="true" selection-start-line="52" selection-start-column="75" selection-end-line="52" selection-end-column="75" />
+            <state relative-caret-position="230">
+              <caret line="54" column="51" lean-forward="true" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#787#788#0" expanded="true" />
@@ -103,7 +101,7 @@
         </entry>
       </file>
       <file leaf-file-name="lista.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/produtos/lista.xhtml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/livros/lista.xhtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
@@ -319,7 +317,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="produtos" />
+              <option name="myItemId" value="livros" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1074,12 +1072,12 @@
       <workItem from="1496260785881" duration="1262000" />
       <workItem from="1496332906095" duration="5173000" />
       <workItem from="1496341470678" duration="37000" />
-      <workItem from="1496342123519" duration="3054000" />
+      <workItem from="1496342123519" duration="3268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9526000" />
+    <option name="totallyTimeSpent" value="9740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="18" width="1375" height="882" extended-state="0" />
@@ -1107,7 +1105,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26106527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1139,7 +1137,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/produtos/form.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/livros/form.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
           <caret line="43" column="64" lean-forward="false" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
@@ -1237,7 +1235,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/produtos/form.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/livros/form.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
           <caret line="43" column="64" lean-forward="true" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
@@ -1335,7 +1333,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/produtos/form.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/livros/form.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1426,7 +1424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/produtos/form.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/livros/form.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="46" column="47" lean-forward="false" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
@@ -1469,7 +1467,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/produtos/lista.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/livros/lista.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
@@ -1493,8 +1491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminBooksBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="52" column="75" lean-forward="true" selection-start-line="52" selection-start-column="75" selection-end-line="52" selection-end-column="75" />
+        <state relative-caret-position="230">
+          <caret line="54" column="51" lean-forward="true" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#787#788#0" expanded="true" />
