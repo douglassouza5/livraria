@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c4004c8-ef4a-4d51-8f03-6af4fd6cd71b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/livraria/daos/AuthorDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/livraria/daos/BookDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/livraria/models/Author.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/livraria/models/Book.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminListBooksBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/produtos/lista.xhtml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/livraria/managedbeans/AdminBooksBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/livraria/WEB-INF/classes/br/com/livraria/managedbeans/AdminBooksBean.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/AdminBooksBean.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminBooksBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/livraria.war" afterPath="$PROJECT_DIR$/target/livraria.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/livraria_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/livraria_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/livraria.iml" afterPath="$PROJECT_DIR$/livraria.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/AdminBooksBean.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/AdminBooksBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/produtos/form.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/produtos/form.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/livraria/produtos/form.xhtml" afterPath="$PROJECT_DIR$/target/livraria/produtos/form.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/livraria/daos/BookDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/livraria/daos/BookDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/livraria/models/Book.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/livraria/models/Book.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,16 +28,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="314">
               <caret line="46" column="47" lean-forward="false" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,42 +59,60 @@
       <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/models/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+            <state relative-caret-position="342">
+              <caret line="73" column="23" lean-forward="true" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1834#1835#0" expanded="true" />
-                <element signature="e#1869#1870#0" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
+                <element signature="e#1546#1547#0" expanded="true" />
+                <element signature="e#1903#1904#0" expanded="true" />
+                <element signature="e#1938#1939#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <file leaf-file-name="AdminBooksBean.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminBooksBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="226">
+              <caret line="52" column="75" lean-forward="true" selection-start-line="52" selection-start-column="75" selection-end-line="52" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminListBooksBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminListBooksBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lista.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/produtos/lista.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminBooksBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/AdminBooksBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthorDAO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuthorDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/daos/AuthorDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
@@ -137,12 +139,11 @@
       <file leaf-file-name="BookDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/daos/BookDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="308">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,6 +154,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="facelets" />
         <option value="Class" />
       </list>
     </option>
@@ -172,13 +174,16 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/livraria/daos.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/daos/BookDAO.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/livraria/daos/BookDAO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/livraria/models/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/livraria/models/Author.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/produtos/form.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/AdminBooksBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/livraria/daos/AuthorDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/AdminBooksBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/livraria/daos/BookDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminListBooksBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/livraria/models/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/produtos/lista.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminBooksBean.java" />
       </list>
     </option>
   </component>
@@ -422,7 +427,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="managedbeans" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1069,12 +1074,12 @@
       <workItem from="1496260785881" duration="1262000" />
       <workItem from="1496332906095" duration="5173000" />
       <workItem from="1496341470678" duration="37000" />
-      <workItem from="1496342123519" duration="1582000" />
+      <workItem from="1496342123519" duration="3054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8054000" />
+    <option name="totallyTimeSpent" value="9526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="18" width="1375" height="882" extended-state="0" />
@@ -1102,7 +1107,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26106527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1185,14 +1190,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/AdminBooksBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminBooksBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1213,8 +1218,7 @@
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1225,8 +1229,10 @@
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1903#1904#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1282,14 +1288,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/AdminBooksBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminBooksBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1310,8 +1316,7 @@
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1322,8 +1327,10 @@
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1903#1904#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1344,14 +1351,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/AdminBooksBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminBooksBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1401,35 +1408,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/daos/BookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
           <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/models/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1451,24 +1434,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/AdminBooksBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/daos/AuthorDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/daos/BookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/models/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="73" column="23" lean-forward="true" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1903#1904#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/produtos/lista.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminListBooksBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/livraria/managedbeans/admin/AdminBooksBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="52" column="75" lean-forward="true" selection-start-line="52" selection-start-column="75" selection-end-line="52" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
           </folding>
         </state>
       </provider>

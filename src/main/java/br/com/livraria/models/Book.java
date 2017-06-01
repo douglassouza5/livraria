@@ -70,6 +70,9 @@ public class Book {
         this.price = price;
     }
 
+    public List<Author> getAuthors() {
+        return authors;
+    }
 
     @Override
     public String toString() {
